@@ -20,9 +20,9 @@ vagrant:
 
 docker:
   containers:
-  - name: selinux-utils-docker
-    image: centos
-    image_version: 7
+    - name: selinux-utils-docker
+      image: centos
+      image_version: 7
 
 verifier:
   name: testinfra
